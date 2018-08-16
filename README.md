@@ -21,7 +21,7 @@ matplotlib \
 scikit-image \
 h5py \
 imgaug \
-pyyaml \
+pyyaml
 
 # Runing The image 
 To pull the image from Docker Hub
