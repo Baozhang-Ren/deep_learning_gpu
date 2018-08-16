@@ -11,7 +11,7 @@ Python 3.5.0 \
 Jupyter Notebook \
 Tensorflow-gpu 1.10.0 \
 Keras \
-OpenCV 3.4.2 \
+OpenCV 3.4.2 with opencv_contrib \
 PyCocoTools \
 numpy \
 scipy \
