@@ -1,6 +1,6 @@
 # deep_learning_mask_rcnn
 
-This is a docker image build from nvidia/cuda and originally built for live image classification and segmentaion using Mask-RCNN.
+This is a docker image build from nvidia/cuda and originally built for live image classification and segmentation using Mask-RCNN.
 The Mask RCNN is not included but can be easily built in using this image as the base image.
 
 # Base Image
