@@ -87,7 +87,7 @@ RUN apt-get update && apt-get install --no-install-recommends  -y \
 
 # Science libraries and other common packages
 RUN pip3 --no-cache-dir install \
-    numpy scipy sklearn scikit-image pandas matplotlib Cython requests
+    numpy scipy sklearn scikit-image pandas matplotlib Cython requests h5py imgaug pyyaml Pillow
 
 # PyCocoTools
 RUN pip3 install --no-cache-dir git+https://github.com/waleedka/coco.git#subdirectory=PythonAPI
@@ -112,11 +112,6 @@ RUN cd opencv && mkdir build && cd build && \
     make -j"$(nproc)" && \
     make install
 
-#Install Packages in requirements.txt 
-RUN cd /home
-COPY requirements.txt /home
-RUN pip3 install -r requirements.txt
-RUN rm requirements.txt
 WORKDIR "/root"
 CMD ["/bin/bash"]
 
