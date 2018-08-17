@@ -1,6 +1,3 @@
-nexmo
-
-
 numpy
 scipy
 Pillow
