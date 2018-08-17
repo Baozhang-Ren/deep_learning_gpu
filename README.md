@@ -27,9 +27,9 @@ pyyaml
 # Runing The image 
 To pull the image from Docker Hub
 ```
-docker pull arabellaren/deep_learning_gpu
+docker pull arabellaren/deep_learning_mask_rcnn
 ```
 To run the image, use nvidia-docker instead of docker
 ```
-nvidia-docker -p 8888:8888 -it arabellaren/deep_learning_gpu sh
+nvidia-docker -p 8888:8888 -it arabellaren/deep_learning_mask_rcnn sh
 ```
